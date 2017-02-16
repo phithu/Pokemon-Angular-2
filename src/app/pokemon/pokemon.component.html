@@ -1,0 +1,30 @@
+<div class="container">
+    <div *ngIf="pokemons && pokemons.length">
+        <div class="row">
+            <h4>Type pokemon</h4>
+            <select class="ui dropdown" (change)="OnChange($event)">
+                <option selected="selected" value="">ALL</option>
+                <option value="Grass">Grass</option>
+                <option value="Fire">Fire</option>
+                <option value="Water">Water</option>
+            </select>
+        </div>
+        <div *ngFor="let item of pokemons" class="col-lg-3 col-md-3 col-sm-6 col-xs-12 col__margin">
+            <div class="ui segment">
+                <img [src]="item.imageUrl" alt="" class="img__pokemon">
+                <div class="ui list">
+                    <div class="item text__center">Name: {{item.name}}</div>
+                    <div class="item text__center">Height: {{item.height}}m</div>
+                    <div class="item text__center">Weight: {{item.weight}}kg</div>
+                </div>
+                <a [routerLink]="['/pokemon', item.id]" class="ui button button__center green">Detail</a>
+            </div>
+        </div>
+    </div>
+    <!--Nếu tìm kiếm không thấy-->
+    <div *ngIf="checkEmpty">
+        <img src="../assets/img/unhappy.png" alt="" class="img__not_result">
+        <p class="text__center text__not_result">Sorry! No result found.</p>
+    </div>
+
+</div>

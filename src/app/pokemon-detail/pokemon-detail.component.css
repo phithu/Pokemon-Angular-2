@@ -1,0 +1,27 @@
+.img__pokemon {
+    width: 200px;
+    margin: 10px auto;
+    display: block;
+    height: 185px;
+}
+
+.text__center {
+    text-align: center;
+    display: block;
+}
+
+.p__relative {
+    position: relative;
+}
+
+.btn__back {
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+}
+
+.row__title {
+    text-align: center;
+    text-decoration: underline;
+    color: #666;
+}

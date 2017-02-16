@@ -1,0 +1,45 @@
+[{
+        "id": "1",
+        "name": "Bulbasaur",
+        "type": "Grass",
+        "imageUrl": "../assets/img/1.png",
+        "height": 90,
+        "weight": 86,
+        "evolesfrom": "",
+        "evolesinto": "../assets/img/2.png",
+        "description": "description 1"
+    },
+    {
+        "id": "2",
+        "name": "Ivysaur",
+        "type": "Grass",
+        "imageUrl": "../assets/img/2.png",
+        "height": 49,
+        "weight": 44,
+        "evolesfrom": "../assets/img/1.png",
+        "evolesinto": "../assets/img/3.png",
+        "description": "description 2"
+    },
+    {
+        "id": "3",
+        "name": "Venusaur",
+        "type": "Grass",
+        "imageUrl": "../assets/img/3.png",
+        "height": 49,
+        "weight": 44,
+        "evolesfrom": "../assets/img/2.png",
+        "evolesinto": "",
+        "description": "description 2"
+    },
+    {
+        "id": "4",
+        "name": "Charmander",
+        "type": "Fire",
+        "imageUrl": "../assets/img/4.png",
+        "height": 49,
+        "weight": 44,
+        "evolesfrom": "",
+        "evolesinto": "../assets/img/5.png",
+        "description": "description 2"
+    }
+]

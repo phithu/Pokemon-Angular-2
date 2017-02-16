@@ -1,0 +1,33 @@
+.img__brand {
+    width: 80px;
+}
+
+.navbar__customize {
+    border-radius: 0px;
+    background-color: #fff;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    border: none;
+}
+
+.navbar-brand {
+    height: 70px;
+    padding: 9px 15px;
+}
+
+.menu__link--customize {
+    line-height: 70px;
+    padding: 0px 10px;
+}
+
+.router__link--active {
+    background-color: #337ab7 !important;
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.right__customize {
+    line-height: 70px;
+    margin: 0px;
+}

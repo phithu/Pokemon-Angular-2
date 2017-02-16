@@ -1,3 +1,10 @@
-<h1>
-  {{title}}
-</h1>
+<ng-progress [positionUsing]="'marginLeft'" [minimum]="0.15" [ease]="'linear'" [speed]="300" [showSpinner]="false" [direction]="'leftToRightIncreased'" [color]="'#337ab7'" [trickleSpeed]="300" [thick]="true"></ng-progress>
+<header>
+    <app-menu></app-menu>
+</header>
+<main>
+    <router-outlet></router-outlet>
+</main>
+<footer>
+
+</footer>

@@ -1,0 +1,22 @@
+<nav class="navbar navbar-default navbar__customize">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+                <img src="../assets/img/logo.png" alt="" class="img__brand">
+            </a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a [routerLink]="['home']" [routerLinkActive]="['router__link--active']" class="menu__link--customize">Home</a></li>
+            <li><a [routerLink]="['pokemon']" [routerLinkActive]="['router__link--active']" class="menu__link--customize">Pokemon</a></li>
+            <li><a [routerLink]="['about']" [routerLinkActive]="['router__link--active']" class="menu__link--customize">About</a></li>
+        </ul>
+        <div class="navbar-right right__customize" *ngIf="toogleShowForm">
+            <form class="ui form" [formGroup]="searchForm">
+                <div class="ui icon input">
+                    <input type="text" placeholder="Search..." formControlName="searchInput" [(ngModel)]="keyword">
+                    <i class="search icon"></i>
+                </div>
+            </form>
+        </div>
+    </div>
+</nav>

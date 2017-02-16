@@ -1,0 +1,32 @@
+.img__pokemon {
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+    height: 185px;
+}
+
+.col__margin {
+    margin: 10px 0px;
+}
+
+.text__center {
+    text-align: center;
+}
+
+.button__center {
+    display: block;
+    width: 85px;
+    margin: 0px auto;
+}
+
+.img__not_result {
+    width: 50%;
+    margin: 10px auto;
+    display: block;
+}
+
+.text__not_result {
+    font-weight: bold;
+    font-size: 14pt;
+    color: #f34a4a;
+}
